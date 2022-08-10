@@ -138,6 +138,6 @@ dmypy.json
 .DS_Store
 
 scans
-data/
+datasets/
 
 debug/

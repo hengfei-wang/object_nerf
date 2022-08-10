@@ -27,8 +27,8 @@ dataset_extra:
   use_bbox: false
   use_bbox_only_for_test: true
   
-  root_dir: data/toy_desk/our_desk_2
-  bbox_dir: datasets/desk_bbox/desk2/bbox.json
+  root_dir: datasets/toydesk_data/processed/our_desk_2
+  bbox_dir: datasets/toydesk_data/bbox/desk2/bbox.json
   # scans_dir: data/scannet/scans
   # scene_id: 'scene0024_00'
 
@@ -48,7 +48,7 @@ dataset_extra:
   # background that cannot be occluders, e.g., floor, ceil, wall
   bg_instance_id: [0]
 
-  pcd_path: data/toy_desk/our_desk_2/pcd_from_mesh.ply
+  pcd_path: datasets/toydesk_data/processed/our_desk_2/pcd_from_mesh.ply
   
   # parameters for voxel features
   voxel_size: 0.3
